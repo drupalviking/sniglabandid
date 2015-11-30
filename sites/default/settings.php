@@ -218,9 +218,9 @@ $databases = array (
     'default' => 
     array (
       'database' => 'sniglabandid',
-      'username' => 'sniglabandid',
-      'password' => 'Jf83aoOHAFksj37',
-      'host' => 'localhost',
+      'username' => 'root',
+      'password' => '',
+      'host' => '127.0.0.1',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
