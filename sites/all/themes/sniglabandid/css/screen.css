@@ -7,6 +7,7 @@ body{
   background-size: cover;
   font-family: "Merriweather";
   font-size: 16px;
+  color: white;
 }
 
 #page-wrapper{
@@ -42,6 +43,8 @@ a.active{
   float: right;
 }
 
+.block-commerce-cart table{ display: none;}
+
 .block-menu{
   clear: both;
   float: left;
@@ -62,7 +65,8 @@ a.active{
 }
 
 .block-menu ul,
-#user-login-form ul{
+#user-login-form ul,
+.view-vorur-i-verslun ul{
   margin: 0; padding: 0;
 }
 
@@ -73,7 +77,8 @@ a.active{
 }
 
 .block-menu ul li,
-#user-login-form ul li{
+#user-login-form ul li,
+.view-vorur-i-verslun ul li{
   margin: 0;
   list-style: none;
   float: left;
@@ -151,4 +156,18 @@ input[type=submit] {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
   /* IE6-9 */
+}
+
+.line-item-summary .line-item-quantity{
+  float: right;
+  width:100%;
+}
+
+.page-cart table{
+  width: 100%;
+}
+
+.view-vorur-i-verslun .views-row .commerce-product-field-field-mynd{
+  float:left;
+  width: 30%:
 }
