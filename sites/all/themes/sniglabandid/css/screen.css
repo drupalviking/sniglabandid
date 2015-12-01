@@ -8,7 +8,7 @@ body{
 }
 
 #page-wrapper{
-  max-width: 1140px;
+  max-width: 850px;
   margin: auto;
 }
 
@@ -81,4 +81,12 @@ a.active{
 .cart-empty-block{
   color: white;
   margin-top: 20px;
+}
+
+.front #page-title{
+  display: none;
+}
+
+.field-name-field-mynd-a-sidu img{
+  height: 350px;
 }
