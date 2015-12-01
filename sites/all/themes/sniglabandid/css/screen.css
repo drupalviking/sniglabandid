@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700,400italic,600italic,700italic,800italic,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,300);
 
 body{
   background-image: url(../img/Sband-logo-2015-minna.png) ;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Open Sans";
+  font-family: "Merriweather";
+  font-size: 16px;
 }
 
 #page-wrapper{
@@ -27,6 +29,12 @@ a.active{
 .logo img{
   height: 150px;
   float: left;
+}
+
+.block-user{
+  width: 35%;
+  float: left;
+  margin-left: 5%;
 }
 
 .block-commerce-cart{
@@ -53,7 +61,8 @@ a.active{
   font-weight: bold;
 }
 
-.block-menu ul{
+.block-menu ul,
+#user-login-form ul{
   margin: 0; padding: 0;
 }
 
@@ -63,11 +72,16 @@ a.active{
   padding: 10px 10px;
 }
 
-.block-menu ul li{
+.block-menu ul li,
+#user-login-form ul li{
   margin: 0;
   list-style: none;
   float: left;
   padding: 0 20px 0 0;
+}
+
+#user-login-form ul li a{
+  font-size: 10px;
 }
 
 .block-menu ul li a{
@@ -89,4 +103,52 @@ a.active{
 
 .field-name-field-mynd-a-sidu img{
   height: 350px;
+}
+
+
+.views-view-grid td{
+  width:21%;
+  margin: 20px 2%;
+  text-align: center;
+}
+
+table{
+  font-family: "Merriweather";
+}
+
+#user-login-form label{
+  float: left;
+  color: white;
+  font-size: 14px;
+  padding: 7px 10px 0 0;
+}
+
+#user-login-form input[type=text],
+#user-login-form input[type=password]{
+  padding: 4px;
+}
+
+input[type=submit] {
+  border-radius: 5px;
+  border: 0;
+  width: 80px;
+  height:25px;
+  font-family: Tahoma;
+  font-weight: bold;
+  background: #f4f4f4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+  /* IE6-9 */
 }
