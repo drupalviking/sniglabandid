@@ -177,7 +177,8 @@ input[type=submit] {
   margin-right: 20px;
 }
 
-.node-product-display{
+.node-product-display,
+#commerce-checkout-form-checkout{
   width: 100%;
   background-color: rgba(0,0,0,.3);
   padding: 30px;
