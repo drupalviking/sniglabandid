@@ -37,6 +37,10 @@ a.active{
   float: left;
 }
 
+.messages.status a{
+  color: red;
+}
+
 .block-user{
   width: 35%;
   float: left;
@@ -124,6 +128,24 @@ a.active{
 
 table{
   font-family: "Merriweather";
+  width: 100%;
+}
+
+th{
+  border-bottom: 3px solid black;
+}
+
+tbody{
+  border: none;
+}
+
+tr, tr.odd, tr.even{
+  background: none;
+  border-bottom: 1px solid black;
+}
+
+td{
+  padding: 5px 0;
 }
 
 #user-login-form label{
