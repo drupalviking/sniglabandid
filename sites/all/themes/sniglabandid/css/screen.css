@@ -59,10 +59,7 @@ a.active{
   float: left;
 }
 
-.views-field-line-item-title a,
-.views-field-line-item-title a.active{
-  color: black !important;
-}
+
 
 .views-field-quantity{
   padding: 0 10px;
