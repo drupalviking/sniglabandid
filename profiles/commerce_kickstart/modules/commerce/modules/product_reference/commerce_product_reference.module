@@ -1467,7 +1467,7 @@ function commerce_product_reference_node_types() {
  */
 function commerce_product_reference_preprocess_entity(&$variables) {
   // @todo Remove this hook implementation when a new release is created for
-  // Entity API to fix the default $url variable in entity.tpl.php.
+  // Entity API to fix the default $url variable in commerce-product.php.
   // @see http://drupal.org/node/1601162
   if (!isset($variables['url'])) {
     $variables['url'] = FALSE;

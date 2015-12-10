@@ -156,7 +156,7 @@ function theme_entity_status($variables) {
 }
 
 /**
- * Process variables for entity.tpl.php.
+ * Process variables for commerce-product.php.
  */
 function template_preprocess_entity(&$variables) {
   $variables['view_mode'] = $variables['elements']['#view_mode'];

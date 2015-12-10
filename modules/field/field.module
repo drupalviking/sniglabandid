@@ -1019,10 +1019,10 @@ function field_extract_bundle($entity_type, $bundle) {
 }
 
 /**
- * Theme preprocess function for theme_field() and field.tpl.php.
+ * Theme preprocess function for theme_field() and field--body.tpl.php.
  *
  * @see theme_field()
- * @see field.tpl.php
+ * @see field--body.tpl.php
  */
 function template_preprocess_field(&$variables, $hook) {
   $element = $variables['element'];
@@ -1075,10 +1075,10 @@ function template_preprocess_field(&$variables, $hook) {
 }
 
 /**
- * Theme process function for theme_field() and field.tpl.php.
+ * Theme process function for theme_field() and field--body.tpl.php.
  *
  * @see theme_field()
- * @see field.tpl.php
+ * @see field--body.tpl.php
  */
 function template_process_field(&$variables, $hook) {
   // The default theme implementation is a function, so template_process() does
@@ -1114,13 +1114,13 @@ function template_process_field(&$variables, $hook) {
  * - THEMENAME_field()
  *
  * Theme developers who prefer to customize templates instead of overriding
- * functions may copy the "field.tpl.php" from the "modules/field/theme" folder
+ * functions may copy the "field--body.tpl.php" from the "modules/field/theme" folder
  * of the Drupal installation to somewhere within the theme's folder and
  * customize it, just like customizing other Drupal templates such as
  * page.tpl.php or node.tpl.php. However, it takes longer for the server to
  * process templates than to call a function, so for websites with many fields
  * displayed on a page, this can result in a noticeable slowdown of the website.
- * For these websites, developers are discouraged from placing a field.tpl.php
+ * For these websites, developers are discouraged from placing a field--body.tpl.php
  * file into the theme's folder, but may customize templates for specific
  * fields. For example, for a field named 'body' displayed on the 'article'
  * content type, any of the following templates will override this default
@@ -1128,7 +1128,7 @@ function template_process_field(&$variables, $hook) {
  * - field--body--article.tpl.php
  * - field--article.tpl.php
  * - field--body.tpl.php
- * - field.tpl.php
+ * - field--body.tpl.php
  * So, if the body field on the article content type needs customization, a
  * field--body--article.tpl.php file can be added within the theme's folder.
  * Because it's a template, it will result in slightly more time needed to
@@ -1154,7 +1154,7 @@ function template_process_field(&$variables, $hook) {
  *
  * @see template_preprocess_field()
  * @see template_process_field()
- * @see field.tpl.php
+ * @see field--body.tpl.php
  *
  * @ingroup themeable
  */

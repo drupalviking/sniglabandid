@@ -1218,7 +1218,7 @@ function hook_field_formatter_view($entity_type, $entity, $field, $instance, $la
   switch ($display['type']) {
     case 'sample_field_formatter_simple':
       // Common case: each value is displayed individually in a sub-element
-      // keyed by delta. The field.tpl.php template specifies the markup
+      // keyed by delta. The field--body.tpl.php template specifies the markup
       // wrapping each value.
       foreach ($items as $delta => $item) {
         $element[$delta] = array('#markup' => $settings['some_setting'] . $item['value']);
@@ -1414,7 +1414,7 @@ function hook_field_attach_update($entity_type, $entity) {
 /**
  * Alter field_attach_preprocess() variables.
  *
- * This hook is invoked while preprocessing the field.tpl.php template file
+ * This hook is invoked while preprocessing the field--body.tpl.php template file
  * in field_attach_preprocess().
  *
  * @param $variables

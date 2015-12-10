@@ -1293,7 +1293,7 @@ function commerce_theme_registry_alter(&$theme_registry) {
 }
 
 /**
- * Processes variables for entity.tpl.php, replacing template_preprocess_entity().
+ * Processes variables for commerce-product.php, replacing template_preprocess_entity().
  *
  * @see commerce_theme_registry_alter()
  * @todo Remove when https://drupal.org/node/1934382 is resolved.
